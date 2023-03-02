@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.803);
+}
+
+ul{
+    font-weight: 2;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+
+ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 13px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #3589d7;
+}
+
+.head{
+    padding: 100px;
+    text-align: center;
+    background: #b80303f8;
+    color: white;
+    height: 400px;
+  }
+  
+  /* Increase the font size of the h1 element */
+  .head h3{
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  .head p{
+    padding: 3px;
+    font-size: 15px;
+  }
+
+  .cn{
+    margin: 10px;
+    padding: 10px;
+  }
